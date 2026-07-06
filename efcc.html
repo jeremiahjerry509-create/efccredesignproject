@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFCC - Economic and Financial Crimes Commission</title>
+    <meta name="description" content="Economic and Financial Crimes Commission website - prevention, investigation, enforcement, and public education against financial crimes in Nigeria.">
+    <meta name="keywords" content="EFCC, Economic Financial Crimes Commission, Nigeria, anti-corruption, financial crimes, fraud prevention">
+    <meta name="author" content="EFCC Nigeria">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="EFCC - Economic and Financial Crimes Commission">
+    <meta property="og:description" content="Nigeria's leading agency in the fight against economic and financial crimes.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="efcc.css">
+    <style>
+        .hero {
+            background: linear-gradient(135deg, #062073 0%, #0b4f9e 100%);
+            color: white;
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+            margin-top: 80px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            line-height: 1.05;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 760px;
+            margin: 0 auto 2rem;
+            opacity: 0.92;
+        }
+        .hero-buttons {
+            display: inline-flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .secondary-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            color: white;
+            border: 2px solid rgba(255,255,255,0.75);
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .secondary-button:hover {
+            background: rgba(255,255,255,0.12);
+            transform: translateY(-2px);
+        }
+        .grid-layout {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+        .section-content {
+            padding: 4rem 0;
+        }
+        .section-content h2 {
+            margin-bottom: 1rem;
+        }
+        .feature-card {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 2rem;
+            border-radius: 15px;
+            background: var(--card-bg);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            min-height: 220px;
+        }
+        .feature-icon {
+            font-size: 2rem;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .stat-card {
+            padding: 2rem;
+            border-radius: 15px;
+            background: var(--card-bg);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .stat-card h3 {
+            margin: 1rem 0 0.5rem;
+        }
+        .process-list {
+            display: grid;
+            gap: 1rem;
+        }
+        .process-item {
+            background: var(--card-bg);
+            padding: 1.75rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+        .process-item h4 {
+            margin-bottom: 0.75rem;
+        }
+        .footer p {
+            margin: 0;
+            max-width: 860px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="efcc-logo.png" alt="EFCC Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">EFCC</span>
+                    <span class="logo-subtitle">Economic & Financial<br>Crimes Commission</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="efcc-about.html">ABOUT</a></li>
+                <li><a href="efcc-wanted.html">WANTED PERSON</a></li>
+                <li><a href="efcc-news.html">NEWS & MEDIA</a></li>
+                <li><a href="efcc-resources.html">RESOURCES</a></li>
+                <li><a href="efcc-contact.html">HELP & CONTACT</a></li>
+                <li><a href="efcc-submit.html" class="nav-button">SUBMIT PETITION</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-carousel">
+            <div class="carousel-slide">
+                <img src="Efcc_officers.jpg" alt="EFCC Image 1" class="carousel-img">
+                <div class="carousel-caption">Our Dedicated Officers</div>
+            </div>
+            <div class="carousel-slide">
+                <img src="Efcc leadership.jpg" alt="EFCC Image 2" class="carousel-img">
+                <div class="carousel-caption">Leadership Excellence</div>
+            </div>
+            <div class="carousel-slide">
+                <img src="efccNews.png" alt="EFCC Image 3" class="carousel-img">
+                <div class="carousel-caption">Latest EFCC Updates</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container section-content" style="background: white; padding: 3rem 2rem; border-radius: 15px; margin-top: 3rem;">
+        <h2 class="section-title"> About EFCC</h2>
+        <div class="grid-layout" style="margin-top: 2rem;">
+            <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">👁️</div>
+                <h2><b>Vision</b></h2>
+                <p>A Nigeria free of economic and financial crimes.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">🎯</div>
+                <h2><b>Mission</b></h2>
+                <p>To eradicate economic and financial crimes through prevention, enforcement and coordination.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">🛡️</div>
+                <h2><b>Core Values</b></h2>
+                <p>Integrity<br>Courage<br>Professionalism<br>Collaboration</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quick-links" class="quick-links-section">
+        <div class="container">
+            <h2 class="section-title section-title-light">Quick Links</h2>
+            <div class="quick-links-grid">
+                <a href="#submit-petition" class="quick-link-card"> Submit Petition</a>
+                <a href="#track-petition" class="quick-link-card"> Track Petition</a>
+                <a href="#report-staff" class="quick-link-card"> Report a Staff</a>
+                <a href="#efcc-eagle-app" class="quick-link-card">EFCC Eagle App</a>
+                <a href="#view-auctions" class="quick-link-card"> View Auctions</a>
+                <a href="#apply-scuml" class="quick-link-card">Apply for SCUML</a>
+                <a href="#efcc-radio" class="quick-link-card"> EFCC Radio 97.3fm</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="impact-section">
+        <div class="container">
+            <h2 class="impact-title">(2014 - 2025) Statistics and Impact</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3 class="stat-number">148,022+</h3>
+                    <p class="stat-label">Petitions Received</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">106,626+</h3>
+                    <p class="stat-label">Cases Investigated</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">28,264+</h3>
+                    <p class="stat-label">Cases Filed in Court</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number">20,088+</h3>
+                    <p class="stat-label">Convictions Secured</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <h3>Stay Updated</h3>
+            <p>Subscribe to our newsletter for the latest news and updates from EFCC.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo-section">
+                    <img src="https://www.efcc.gov.ng/EFCC-Logo.png" alt="EFCC Logo" class="footer-logo">
+                    <div class="footer-brand">
+                        <h3>EFCC</h3>
+                        <p>Economic and Financial<br>Crimes Commission</p>
+                        <p class="footer-address">Plot 301/302, Institution and Research<br>Cadastral District, Jabi, Abuja, Nigeria</p>
+                        <div class="footer-contact">
+                            <h4>Hotline and Central Email</h4>
+                            <ul class="footer-links">
+                                <li><a href="tel:+2348093322644">+234 809 332 2644</a></li>
+                                <li><a href="tel:+23499044751">+234 (9) 9044751</a></li>
+                                <li><a href="mailto:info@efcc.gov.ng">info@efcc.gov.ng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Mission and Vision</a></li>
+                        <li><a href="#">Board Members</a></li>
+                        <li><a href="#">Structure</a></li>
+                        <li><a href="#">Establishment Act</a></li>
+                        <li><a href="#">Strategic Plan</a></li>
+                        <li><a href="#">Zonal Directorates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>News</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Trending News</a></li>
+                        <li><a href="#">Wanted Persons</a></li>
+                        <li><a href="#">EFCC Convictions</a></li>
+                        <li><a href="#">Media Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">EFCC Academy</a></li>
+                        <li><a href="#">SCUML</a></li>
+                        <li><a href="#">Speeches</a></li>
+                        <li><a href="#">Magazines</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2026 EFCC | All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+
+    <script>
+        // Loading Screen
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loadingScreen').classList.add('hidden');
+            }, 500);
+        });
+
+        // Back to Top Button
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Dark Mode Toggle
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                darkModeToggle.textContent = '☀️';
+            } else {
+                darkModeToggle.textContent = '🌙';
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+            });
+        }
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
+  
